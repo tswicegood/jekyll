@@ -9,6 +9,7 @@ require 'time'
 require 'yaml'
 
 # stdlib
+require 'open-uri'
 
 # 3rd party
 require 'liquid'
@@ -23,6 +24,7 @@ require 'jekyll/layout'
 require 'jekyll/page'
 require 'jekyll/post'
 require 'jekyll/filters'
+require 'jekyll/tags/atom'
 require 'jekyll/tags/highlight'
 require 'jekyll/tags/include'
 require 'jekyll/albino'
